@@ -1,11 +1,12 @@
 import express from "express";
+import filmes from "./filmes";
 
 
 const app = express();
 const port = 3000
 
 app.get("/", (requisicao, resposta) => {
-    resposta.send(pet);
+    resposta.send(filmes);
 })
 
 app.listen(port,()=> {
