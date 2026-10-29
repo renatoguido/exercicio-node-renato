@@ -1,5 +1,5 @@
 import express from "express";
-import filmes from "./filmes";
+import filmes from "./filmes.js";
 
 
 const app = express();
